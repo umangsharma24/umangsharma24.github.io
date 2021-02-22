@@ -1,2 +1,4 @@
 # UmangSharma24.github.io
-A repository for a Website Development Project. The website is focused around me and is used to learn Web-Dev and test projects.
+A repository for a Website Development Project. 
+
+Goal: The website was created for me to practice Web Development while also providing a portfolio of my programming projects that's more intuitive to navigate.
