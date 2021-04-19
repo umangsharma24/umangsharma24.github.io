@@ -8,3 +8,5 @@ About: This website chronicles the coding projects I've worked on, the skills I'
 Template from https://html5up.net/
 
 Template URL: https://html5up.net/editorial
+
+Icons used in the various webpages are from the Font-Awesome Icon Library: https://fontawesome.com/icons?d=gallery&p=2 
