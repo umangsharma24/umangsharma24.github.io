@@ -1,12 +1,4 @@
 # UmangSharma24.github.io
-A repository for a Website Development Project. 
-
-Goal: The website was created for me to practice Web Development while also providing a portfolio of my programming projects that's more intuitive to navigate.
-
-About: This website chronicles the coding projects I've worked on, the skills I've developed over the years and any other information I choose to share.
-
-Template from https://html5up.net/
-
-Template URL: https://html5up.net/editorial
+Personal Website project where I talk about the projects I've worked on, the skills I've acquired and a bit about myself. The project was created using Javascript, HTML and CSS. I'll also try to share a bit of the art I've made because why not?
 
 Icons used in the various webpages are from the Font-Awesome Icon Library: https://fontawesome.com/icons?d=gallery&p=2 
