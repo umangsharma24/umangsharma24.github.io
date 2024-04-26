@@ -1,4 +1,8 @@
-# UmangSharma24.github.io
-Personal Website project where I talk about the projects I've worked on, the skills I've acquired and a bit about myself. The project was created using Javascript, HTML and CSS. I'll also try to share a bit of the art I've made because why not?
+## UmangSharma.com
 
-Icons used in the various webpages are from the Font-Awesome Icon Library: https://fontawesome.com/icons?d=gallery&p=2 
+## ===================
+## UNDER CONSTRUCTION
+## ===================
+
+Revamping my website. Design outlined at the following URL:
+https://www.figma.com/file/OSPJfmTZkj2xDn6RinGZd0/Website-Portfolio-Project?type=design&node-id=0%3A1&mode=design&t=hP6NcvyTrmT2VYsj-1
