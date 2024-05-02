@@ -1,0 +1,32 @@
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer {
+    background-color: #141414;
+    color: white;
+    height: 225px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me-container {
+    font-family: 'Origin';
+    font-size: 100px;
+    padding-top: 20px;
+}
+
+.link-container {
+    font-family: 'Magdelin';
+    font-size: 26px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.link-item {
+    margin-left: 60px;
+    margin-right: 60px;
+}

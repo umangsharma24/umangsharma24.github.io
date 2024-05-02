@@ -1,9 +1,9 @@
 //import { AppstoreOutlined, MailOutlined, SettingOutlined } from 'icons';
 import { useState } from 'react';
-import { ConfigProvider, Menu } from 'antd';
-import '../styles.css';
+import {ConfigProvider, Menu } from 'antd';
+import '../fonts.css';
 
-function SiteHeader(props) {
+function SiteHeader() {
     
     //State tracking for which button is currently selected
     const [current, setCurrent] = useState('home');
@@ -57,7 +57,7 @@ function SiteHeader(props) {
             }}
         >
         <Menu
-            class-Name="site-header"
+            className="site-header"
             onClick={onButtonClick}
             selectedKeys={[current]}
             mode="horizontal"

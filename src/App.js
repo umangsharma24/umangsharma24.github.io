@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
 import SiteHeader from './components/siteheader';
+import MyFooter from './components/footer';
+import { Layout } from 'antd';  
+const { Header, Content, Footer } = 'Layout';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <SiteHeader/>
-      </header>  
-      <header className="App-header">        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      {/* <Layout>
+        <Header>
+          <SiteHeader />
+        </Header>
+        <Content>
           UNDER CONSTRUCTION
-        </a>
-      </header>
+        </Content>
+        <Footer>
+          <MyFooter />
+        </Footer>
+      </Layout> */}
+      <MyFooter/>
     </div>
   );
 }
