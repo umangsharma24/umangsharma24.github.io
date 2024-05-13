@@ -2,36 +2,36 @@
 
 @font-face {
     font-family: 'Magdelin-Medium';
-    src: url('./assets/fonts/Magdelin-Medium.otf') format('opentype');
+    src: url('../assets/fonts/Magdelin-Medium.otf') format('opentype');
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Magdelin';
-    src: url('./assets/fonts/Magdelin-Regular.otf') format('opentype');
+    src: url('../assets/fonts/Magdelin-Regular.otf') format('opentype');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Magdelin';
-    src: url('./assets/fonts/Magdelin-Text.otf') format('opentype');
+    src: url('../assets/fonts/Magdelin-Text.otf') format('opentype');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Magdelin';
-    src: url('./assets/fonts/Magdelin-Bold.otf') format('opentype');
+    src: url('../assets/fonts/Magdelin-Bold.otf') format('opentype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Origin';
-    src: url('./assets/fonts/OriginSans.otf') format('opentype');
+    src: url('../assets/fonts/OriginSans.otf') format('opentype');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Origin';
-    src: url('./assets/fonts/OriginSans-Bold.otf') format('opentype');
+    src: url('../assets/fonts/OriginSans-Bold.otf') format('opentype');
     font-weight: bold;
 }

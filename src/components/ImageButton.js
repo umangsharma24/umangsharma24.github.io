@@ -7,7 +7,7 @@
 //     }
 // }
 
-import '../styles/title.css'
+import '../styles/Title.css'
 
 const ImageButton = (props) => {
     return (

@@ -1,6 +1,6 @@
-import '../fonts.css';
-import '../styles/title.css';
-import ImageButton from './imgbutton';
+import '../styles/Fonts.css';
+import '../styles/Title.css';
+import ImageButton from './ImageButton';
 import GitHubIcon from '../assets/images/github_icon.png';
 import LinkedInIcon from '../assets/images/linkedin_icon.png';
 import FacebookIcon from '../assets/images/facebook_icon.png';

@@ -1,6 +1,6 @@
 // Importing in fonts
-import '../fonts.css';
-import '../styles/footer.css';
+import '../styles/Fonts.css';
+import '../styles/Footer.css';
 
 function MyFooter() {
 

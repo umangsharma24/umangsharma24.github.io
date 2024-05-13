@@ -1,7 +1,7 @@
 //import { AppstoreOutlined, MailOutlined, SettingOutlined } from 'icons';
 import { useState } from 'react';
 import {ConfigProvider, Menu } from 'antd';
-import '../fonts.css';
+import '../styles/Fonts.css';
 
 function SiteHeader() {
     
