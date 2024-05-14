@@ -1,0 +1,18 @@
+.projects {
+    font-family: 'Magdelin';
+    font-size: 23px;
+    padding-top: 100px;
+    padding-left: 137px;
+}
+
+.projects-heading {
+    font-family: 'Origin' !important;
+    font-size: 160px !important;
+}
+
+.card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Origin';
+    font-size: 100px;
+}
