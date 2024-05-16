@@ -15,6 +15,7 @@ a, a:hover, a:focus, a:active {
     font-family: 'Origin';
     font-size: 100px;
     padding-top: 20px;
+    padding-left: 40%;
 }
 
 .link-container {

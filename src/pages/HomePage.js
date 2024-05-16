@@ -1,11 +1,14 @@
 //pages/HomePage.js
 
+import '../styles/HomePage.css'
 import SiteHeader from '../components/SiteHeader';
 import Title from '../components/Title';
 import MyFooter from '../components/Footer';
 import AboutMeImage from '../assets/images/about_me_img.jpg'
-import '../styles/HomePage.css'
-import { Card } from "antd";
+import ProjectCard from '../components/ProjectCard';
+import EllipsisIcon from '../assets/images/ellipsis.svg';
+import ExternalLinkIcon from '../assets/images/external_link.svg'
+import ImageButton from '../components/ImageButton';
 
 function HomePage() {
     return (
@@ -50,58 +53,58 @@ function HomePage() {
                     </div>
                 </div>
                 <div className="projects">
-                        <div className="projects-heading">
-                            Projects
-                        </div>
-                        <div className="projects-cards">
-                            <Card
-                                className="card"
-                                title="GQL"
-                                extra={<a href="https://github.com/GQL-Project">GitHub</a>}
-                                style={{
-                                    width: '90%',
-                                    fontFamily: 'Origin',
-                                    fontSize: '150px',
-                                }}
-                            >
-                                <p style={{
-                                    fontFamily: 'Magdelin',
-                                    fontSize: '35px',
-                                }}>Relational Database Management software with inbuilt Version Control</p>
-                            </Card>
-                            <Card
-                                className="card"
-                                title="VirtuCards"
-                                extra={<a href="https://github.com/VirtuCard/VirtuCard">GitHub</a>}
-                                style={{
-                                    width: '90%',
-                                    fontFamily: 'Origin',
-                                    fontSize: '150px',
-                                }}
-                            >
-                                <p style={{
-                                    fontFamily: 'Magdelin',
-                                    fontSize: '35px',
-                                }}>Card game platform built in Unity for PC and Android with online multiplayer</p>
-                            </Card>
-                            <Card
-                                className="card"
-                                title="Shell Project"
-                                extra={<a href="https://github.com/umangsharma24/Shell-Project">GitHub</a>}
-                                style={{
-                                    width: '90%',
-                                }}
-                            >
-                                <p style={{
-                                    fontFamily: 'Magdelin',
-                                    fontSize: '35px',
-                                }}>Bash-like terminal application with some custom commands</p>
-                            </Card>
-                        </div>
+                    <div className="projects-heading">
+                        Projects
+                        <a href="https://github.com/umangsharma24">
+                            <img src={ExternalLinkIcon} alt="Link to more of my projects" 
+                                title="Link to more of my projects" height="70px" style={{
+                                    opacity: '50%',
+                                    paddingLeft: '15px',
+                                    paddingBottom: '10',
+                                }}/> 
+                        </a>
+                    </div>
+                    <div className="projects-cards">
+                        <ProjectCard title="GQL" href="https://github.com/GQL-Project" 
+                            text="Relational Database Management software with inbuilt Version Control built 
+                                using Rust, gRPC, Javascript, and React"
+                            hoverText="GQL GitHub repository" />
+                        <ProjectCard title="VirtuCards" href="https://github.com/VirtuCard/VirtuCard" 
+                            text="Card game platform built in Unity and C#, for PC and Android with online multiplayer" 
+                            hoverText="VirtuCards GitHub repository" />
+                        <ProjectCard title="Shell Project" href="https://github.com/umangsharma24/Shell-Project" 
+                            text="Bash-like terminal application with some custom commands, built in C with the 
+                                help of Lex and Yacc" 
+                            hoverText="Shell Project GitHub repository" />
+                    </div>
                 </div>
                 <div className="internships">
-
+                    <div className="internships-heading">
+                        Internships
+                        <a href="/internships">
+                            <img src={ExternalLinkIcon} alt="Link to Internships page" 
+                                title="More information about my Internships" height="70px" style={{
+                                    opacity: '50%',
+                                    paddingLeft: '15px',
+                                    paddingBottom: '10',
+                                }}/> 
+                        </a>
+                    </div>
+                    <div className="internships-content">
+                        <div className="internship-unit">
+                                Now.gg
+                        </div>
+                        <div className="internship-unit">
+                                Boyce Systems
+                        </div>
+                        <div className="internship-unit">
+                                Knowt
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div className="footer">
+                <MyFooter />
             </div>
         </div>
     );

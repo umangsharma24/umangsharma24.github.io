@@ -10,9 +10,9 @@ function MyFooter() {
             Contact Me
         </div>
         <div className="link-container">
-            <div className="link-item"><a href="mailto:umangsharma0524@gmail.com" >E-mail</a></div>
-            <div className="link-item"><a href="https://www.linkedin.com/in/sharma-umang/">LinkedIn</a></div>
-            <div className="link-item"><a href="https://www.facebook.com/profile.php?id=100064485466187">Facebook</a></div>
+            <div className="link-item"><a href="mailto:umangsharma0524@gmail.com" ><u>E-mail</u></a></div>
+            <div className="link-item"><a href="https://www.linkedin.com/in/sharma-umang/"><u>LinkedIn</u></a></div>
+            <div className="link-item"><a href="https://www.facebook.com/profile.php?id=100064485466187"><u>Facebook</u></a></div>
         </div>
     </div>
 }

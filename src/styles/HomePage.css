@@ -7,12 +7,23 @@
 
 .projects-heading {
     font-family: 'Origin' !important;
-    font-size: 160px !important;
+    font-size: 150px !important;
 }
 
 .card {
     margin-top: 15px;
     margin-bottom: 15px;
     font-family: 'Origin';
-    font-size: 100px;
+}
+
+.internships {
+    font-family: 'Magdelin';
+    font-size: 30px;
+    padding-top: 75px;
+    padding-left: 137px;
+}
+
+.internships-heading {
+    font-family: 'Origin' !important;
+    font-size: 150px !important;
 }
