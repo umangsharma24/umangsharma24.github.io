@@ -110,14 +110,16 @@ function HomePage() {
                                         title="now.gg Website"
                                     />
                                 </p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                                sunt in culpa qui officia deserunt <br />
-                                <b>Skills: Lorem ipsum dolor, sit amet, consectetur, adipiscing, elit</b></p>
+                                <p> I programmed an in-browser video editor for now.gg using Javascript, WebAssembly,
+                                    FFMPEG, and React.JS to improve the features offered on their cloud-gaming platform.
+                                    The video editor was able to take recordings from user's game session and let users
+                                    trim the video duration, crop the video frame, or encode the video into different
+                                    resolutions and formats. This was an intimidating professional experience because
+                                    the company gave me the responsibility of determing the project design and timeline.
+                                    While initially hesitant, this responsibility became a welcome challenge because
+                                    all the learning it enabled. <br />
+                                <b>Skills: React.JS, Javascript, WebAssembly, FFMPEG, Team Communication, Project Design,
+                                    Video Editing</b></p>
                                 </div>
                                 <div className="internship-logo">
                                     <img src={NowggLogo} 
@@ -125,8 +127,8 @@ function HomePage() {
                                         style={{
                                             boxShadow: '2px 2px 12px 0px grey',
                                             borderRadius: '20px',
-                                            marginTop: '60px',
-                                            marginLeft: '30px'
+                                            marginTop: '80px',
+                                            marginLeft: '45px'
                                         }}
                                     />
                                 </div>
