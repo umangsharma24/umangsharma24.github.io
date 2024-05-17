@@ -1,14 +1,19 @@
 //pages/HomePage.js
 
-import '../styles/HomePage.css'
+import '../styles/HomePage.css';
 import SiteHeader from '../components/SiteHeader';
 import Title from '../components/Title';
 import MyFooter from '../components/Footer';
-import AboutMeImage from '../assets/images/about_me_img.jpg'
+import AboutMeImage from '../assets/images/about_me_img.jpg';
+
 import ProjectCard from '../components/ProjectCard';
-import EllipsisIcon from '../assets/images/ellipsis.svg';
-import ExternalLinkIcon from '../assets/images/external_link.svg'
-import ImageButton from '../components/ImageButton';
+import ExternalLinkIcon from '../assets/images/external_link.svg';
+import BulletPointIcon from '../assets/images/bullet_point.svg';
+import ExternalLinkButton from '../components/ExternalLinkButton';
+
+import NowggLogo from '../assets/images/nowgg_logo.png';
+import BoyceSysLogo from '../assets/images/boyce_sys_logo.png';
+import KnowtLogo from '../assets/images/knowt_logo.png';
 
 function HomePage() {
     return (
@@ -43,11 +48,12 @@ function HomePage() {
                              how the industry operates; and to constantly be learning. I am determined, clear-communicator, and 
                             a creative individual. My eagerness along with my creativity teaches me to approach problems from 
                             different angles to ensure I can find my way through any obstacle. I often channel my creativity
-                            into other hobbies like water-color painting.
+                            into other hobbies like water-color painting. <br /><br />
+                            <a href="mailto:umangsharma0524@gmail.com"><u>umangsharma0524@gmail.com</u></a>
                         </p>
                     </div>
                     <div className="aboutme-img">
-                        <img src={AboutMeImage} height="430" style={{
+                        <img src={AboutMeImage} height="430" alt="Umang Sharma" style={{
                             boxShadow: '2px 2px 15px 0px black'
                         }} />
                     </div>
@@ -92,13 +98,110 @@ function HomePage() {
                     </div>
                     <div className="internships-content">
                         <div className="internship-unit">
-                                Now.gg
+                                <div className="internship-info">
+                                <p className="internship-company"> 
+                                    <img src={BulletPointIcon} 
+                                        alt="Bullet Point" 
+                                        className="bullet" />
+                                    now.gg
+                                    <ExternalLinkButton 
+                                        link="https://now.gg/" 
+                                        alt="now.gg Website" 
+                                        title="now.gg Website"
+                                    />
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                                sunt in culpa qui officia deserunt <br />
+                                <b>Skills: Lorem ipsum dolor, sit amet, consectetur, adipiscing, elit</b></p>
+                                </div>
+                                <div className="internship-logo">
+                                    <img src={NowggLogo} 
+                                        alt="now.gg's Logo"
+                                        style={{
+                                            boxShadow: '2px 2px 12px 0px grey',
+                                            borderRadius: '20px',
+                                            marginTop: '60px',
+                                            marginLeft: '30px'
+                                        }}
+                                    />
+                                </div>
                         </div>
                         <div className="internship-unit">
-                                Boyce Systems
+                                <div className="internship-info">
+                                <p className="internship-company"> 
+                                    <img src={BulletPointIcon} 
+                                        alt="Bullet Point"
+                                        className="bullet" />
+                                    Boyce Systems
+                                    <ExternalLinkButton 
+                                        link="https://www.boycesystems.com/" 
+                                        alt="A E Boyce Systems Website" 
+                                        title="A E Boyce Systems Website"
+                                    />
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                                sunt in culpa qui officia deserunt <br />
+                                <b>Skills: Lorem ipsum dolor, sit amet, consectetur, adipiscing, elit</b></p>
+                                </div>
+                                <div className="internship-logo">
+                                    <img src={BoyceSysLogo} 
+                                        alt="Boyce System's Logo"
+                                        style={{
+                                            boxShadow: '2px 2px 12px 0px grey',
+                                            borderRadius: '20px',
+                                            marginTop: '40px',
+                                            marginLeft: '30px',
+                                            padding: '10px'
+                                        }}
+                                    />
+                                </div>
                         </div>
                         <div className="internship-unit">
-                                Knowt
+                                <div className="internship-info">
+                                <p className="internship-company">
+                                    <img src={BulletPointIcon}
+                                        alt="Bullet Point"
+                                        className="bullet" 
+                                    />
+                                    Knowt
+                                    <ExternalLinkButton 
+                                        link="https://knowt.com/" 
+                                        alt="Knowt Website" 
+                                        title="Knowt Website"
+                                    />
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate velit esse cillum dolore eu fugiat 
+                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                                sunt in culpa qui officia deserunt <br />
+                                <b>Skills: Lorem ipsum dolor, sit amet, consectetur, adipiscing, elit</b></p>
+                                </div>
+                                <div className="internship-logo">
+                                    <img src={KnowtLogo}
+                                        alt="Knowt's Logo"
+                                        style={{
+                                            boxShadow: '2px 2px 12px 0px grey',
+                                            borderRadius: '20px',
+                                            marginTop: '100px',
+                                            marginLeft: '30px',
+                                            marginRight: '40px',
+                                            width: '75%',
+                                        }}
+                                    />
+                                </div>
                         </div>
                     </div>
                 </div>
