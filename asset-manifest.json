@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05e39f06.css",
+    "main.js": "/static/js/main.a6fa625a.js",
+    "static/js/453.0da7c8e0.chunk.js": "/static/js/453.0da7c8e0.chunk.js",
+    "static/media/about_me_img.jpg": "/static/media/about_me_img.8c25224157df3eb7faf7.jpg",
+    "static/media/Magdelin-Bold.otf": "/static/media/Magdelin-Bold.1864b424df0b677eafa7.otf",
+    "static/media/Magdelin-Medium.otf": "/static/media/Magdelin-Medium.238d8e9000adb0003362.otf",
+    "static/media/Magdelin-Text.otf": "/static/media/Magdelin-Text.9123e08a53e838c549b0.otf",
+    "static/media/Magdelin-Regular.otf": "/static/media/Magdelin-Regular.d4c99c99907c6062ca2b.otf",
+    "static/media/letterboxd_icon.png": "/static/media/letterboxd_icon.7779f6912d2cf5b71997.png",
+    "static/media/OriginSans-Bold.otf": "/static/media/OriginSans-Bold.6051362aa13a73f70f62.otf",
+    "static/media/OriginSans.otf": "/static/media/OriginSans.cf101fdeeb40a7d83f7e.otf",
+    "static/media/knowt_logo.png": "/static/media/knowt_logo.e43fbc1ed9dcacfb9418.png",
+    "static/media/spotify_icon.png": "/static/media/spotify_icon.f6f073915d5d29bcc592.png",
+    "static/media/insta_icon.png": "/static/media/insta_icon.cf3c79cfb25ee3eb1a49.png",
+    "static/media/facebook_icon.png": "/static/media/facebook_icon.474b7885ddfd54ae0736.png",
+    "static/media/triangle.svg": "/static/media/triangle.b04b30ffdbf28d20772232a461e1f57e.svg",
+    "static/media/external_link.svg": "/static/media/external_link.22f54ce2ade45b742df16b4c985b9e14.svg",
+    "index.html": "/index.html",
+    "static/media/bullet_point.svg": "/static/media/bullet_point.2aab1b023a77832a1d7998ed5ec8c436.svg",
+    "main.05e39f06.css.map": "/static/css/main.05e39f06.css.map",
+    "main.a6fa625a.js.map": "/static/js/main.a6fa625a.js.map",
+    "453.0da7c8e0.chunk.js.map": "/static/js/453.0da7c8e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05e39f06.css",
+    "static/js/main.a6fa625a.js"
+  ]
+}
