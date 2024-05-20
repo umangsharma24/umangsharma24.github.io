@@ -1,0 +1,56 @@
+.projects {
+    font-family: 'Magdelin';
+    font-size: 23px;
+    padding-top: 75px;
+    padding-left: 137px;
+}
+
+.projects-heading {
+    font-family: 'Origin' !important;
+    font-size: 150px !important;
+}
+
+.card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Origin';
+}
+
+.internships {
+    font-family: 'Magdelin';
+    font-size: 23px;
+    padding-top: 75px;
+    padding-left: 137px;
+}
+
+.internships-heading {
+    font-family: 'Origin' !important;
+    font-size: 150px !important;
+    margin-bottom: 50px;
+}
+
+.internship-company {
+    font-family: 'Origin';
+    font-size: 120px;
+    margin: 0;
+    padding: 0px;
+}
+
+.internship-unit {
+    display: flex;
+    align-content: center;
+    text-align: justify;
+}
+
+.internship-info {
+    width: 60%;
+    padding-left: 0px;
+    padding-right: 80px;
+}
+
+.bullet {
+    height: 70px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    opacity: 50%;
+}
