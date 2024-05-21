@@ -49,7 +49,7 @@ function HomePage() {
                             a creative individual. My eagerness along with my creativity teaches me to approach problems from 
                             different angles to ensure I can find my way through any obstacle. I often channel my creativity
                             into other hobbies like water-color painting. <br /><br />
-                            <a href="mailto:umangsharma0524@gmail.com"><u>umangsharma0524@gmail.com</u></a>
+                            Email: <a href="mailto:umangsharma0524@gmail.com"><u>umangsharma0524@gmail.com</u></a>
                         </p>
                     </div>
                     <div className="aboutme-img">
@@ -139,21 +139,22 @@ function HomePage() {
                                     <img src={BulletPointIcon} 
                                         alt="Bullet Point"
                                         className="bullet" />
-                                    Boyce Systems
+                                    A E Boyce Systems
                                     <ExternalLinkButton 
                                         link="https://www.boycesystems.com/" 
                                         alt="A E Boyce Systems Website" 
                                         title="A E Boyce Systems Website"
                                     />
                                 </p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                                sunt in culpa qui officia deserunt <br />
-                                <b>Skills: Lorem ipsum dolor, sit amet, consectetur, adipiscing, elit</b></p>
+                                <p> At Boyce Systems, I worked on several parts of their ERP software 
+                                    Komputrol. I programmed new features like new data analytics scripts in the
+                                    backend, and new frontend interfaces to invoke those scripts and visualize
+                                    their output. The data analysis was done using Microsoft SQL Server and SQL
+                                    Stored Procedures, while the data visualization was done using the .NET
+                                    framework, C#, and the Active Designer package. Day-to-day work at Boyce
+                                    followed the standard process of the Agile methodologies, giving me real exposure
+                                    to working in industry with professional practices. <br />
+                                <b>Skills: SQL, Microsoft SQL Server. .NET Framework, C#, Active Designer</b></p>
                                 </div>
                                 <div className="internship-logo">
                                     <img src={BoyceSysLogo} 
@@ -182,14 +183,17 @@ function HomePage() {
                                         title="Knowt Website"
                                     />
                                 </p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                                enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-                                nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
-                                sunt in culpa qui officia deserunt <br />
-                                <b>Skills: Lorem ipsum dolor, sit amet, consectetur, adipiscing, elit</b></p>
+                                <p> Knowt provides an online educational platform where high school and college students
+                                    can study and revise for their classes. Knowt achieves this by using a proprietary
+                                    algorithm that utilizes Artificial Intelligence to parse and breakdown large textbooks
+                                    into convenient bite-sized notes. Their platform also utilizes these notess to build
+                                    revision activities like Flashcards, Match-the-Pair Puzzles, and Multiple-Choice Quizzes.
+                                    At Knowt, I worked on the frontend adding a feedback tooltip to all the revision activities
+                                    that would ascertain the relevant reasoning to explain to the user why their answer was
+                                    correct or incorrect. I also created a Request button that would flag textbooks in the 
+                                    developer dashboard for note generation and prioritize the textbooks into a queue based on
+                                    number of requests. This was programmed in Javascript, and React.JS.<br />
+                                <b>Skills: Javascript, React.JS, Agile Methodologies </b></p>
                                 </div>
                                 <div className="internship-logo">
                                     <img src={KnowtLogo}
@@ -208,7 +212,7 @@ function HomePage() {
                     </div>
                 </div>
             </div>
-            <div className="footer">
+            <div className="bottom">
                 <MyFooter />
             </div>
         </div>
