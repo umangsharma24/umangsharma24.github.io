@@ -19,7 +19,7 @@ function HomePage() {
     return (
         <div className="home-page">
             <div className="top">
-                <SiteHeader />
+                <SiteHeader title='home' />
                 <Title />
             </div>
             <div className="home-content">
@@ -61,14 +61,6 @@ function HomePage() {
                 <div className="projects">
                     <div className="projects-heading">
                         Projects
-                        <a href="https://github.com/umangsharma24">
-                            <img src={ExternalLinkIcon} alt="Link to more of my projects" 
-                                title="Link to more of my projects" height="70px" style={{
-                                    opacity: '50%',
-                                    paddingLeft: '15px',
-                                    paddingBottom: '10',
-                                }}/> 
-                        </a>
                     </div>
                     <div className="projects-cards">
                         <ProjectCard title="GQL" href="https://github.com/GQL-Project" 
@@ -87,14 +79,6 @@ function HomePage() {
                 <div className="internships">
                     <div className="internships-heading">
                         Internships
-                        <a href="/internships">
-                            <img src={ExternalLinkIcon} alt="Link to Internships page" 
-                                title="More information about my Internships" height="70px" style={{
-                                    opacity: '50%',
-                                    paddingLeft: '15px',
-                                    paddingBottom: '10',
-                                }}/> 
-                        </a>
                     </div>
                     <div className="internships-content">
                         <div className="internship-unit">

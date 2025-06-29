@@ -2,6 +2,7 @@
 
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
+import ArtPage from './pages/ArtPage';
 import ProjectPage from './pages/ProjectPage';
 import InternPage from './pages/InternPage';
 
@@ -11,11 +12,12 @@ const RouteNav = () => {
             <Routes>
                 {/* HOME ROUTE */}
                 <Route path="/" element={<HomePage />}/>
-                <Route path="/projects" element={<ProjectPage />} />
-                <Route path="/internships" element={<InternPage />} />
                 {/* PROJECTS */}
+                <Route path="/projects" element={<ProjectPage />} />
                 {/* INTERNSHIPS */}
+                <Route path="/internships" element={<InternPage />} />
                 {/* ART */}
+                <Route path="/art" element={<ArtPage />} />
             </Routes>
         </Router>
     );

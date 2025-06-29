@@ -3,7 +3,7 @@ import { useState } from 'react';
 import {ConfigProvider, Menu } from 'antd';
 import '../styles/Fonts.css';
 
-function SiteHeader() {
+function SiteHeader(props) {
     
     //State tracking for which button is currently selected
     const [current, setCurrent] = useState('home');
@@ -16,7 +16,7 @@ function SiteHeader() {
         },
         {
             label: (
-                <a href="index.js">Home</a>
+                <a href="/#">Home</a>
             ),
             key: 'home'    
         },
@@ -25,15 +25,21 @@ function SiteHeader() {
             key: 'contact'
         },
         {
-            label: 'Projects',
+            label: (
+                <a href="/projects">Projects</a>
+            ),
             key: 'projs'
         },
         {
-            label: 'Internships',
+            label: (
+                <a href="/internships">Internships</a>
+            ),
             key: 'interns'
         },
         {
-            label: 'Art',
+            label: (
+                <a href="/art">Art</a>
+            ),
             key: 'art'
         }
     ];
@@ -59,7 +65,7 @@ function SiteHeader() {
         <Menu
             className="site-header"
             onClick={onButtonClick}
-            selectedKeys={[current]}
+            selectedKeys={[props.title]}
             mode="horizontal"
             items={siteItems}
             style = {{
